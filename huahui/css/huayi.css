@@ -1,0 +1,238 @@
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li {
+    float: left;
+    width: 86px;
+}
+.navList li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .5s;
+    color: black;
+}
+.navList li a:hover {
+    color: #16b0dc;
+}
+.comunication{
+    height: 200px;
+    width: 100%;
+    background: #f5f5f5;
+}
+.com{
+    width: 100%;
+    height: 47px;
+    padding: 5px 0;
+    margin:10px auto;
+}
+.com ul{
+    width: 150px;
+    height: 100%;
+    margin: 0 auto;
+}
+.com ul li{
+    float: left;
+    width: 40px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.com ul li a{
+    display: block;
+    height: 30px;
+    width: 40px;
+    float: left;
+}
+.com ul li a img{
+    height: 35px;
+    width: 40px;
+}
+.gongan{
+    margin: 11px 0px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.gongan a{
+    color: dodgerblue;
+    transition: 0.5s;
+}
+.gongan a:hover{
+    color: #89bceb;
+    text-decoration:underline;
+}
+.com div span p{
+    margin: 11px 0;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1;
+}
+.com div span{
+    margin-bottom: 20px;
+}
+.line{
+    height: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #f5f5f5;
+}
+ul{
+    margin-top: 97px;
+    overflow: hidden;
+}
+ul li{
+    width: 50%;
+    margin: 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .5);
+}
+ul li:hover img{
+    transform: scale(1.1);
+    /*图片缩放*/
+    transition-duration: 0.5s;
+    /*过渡所需要的时间*/
+}
+ul li:hover .info{
+    background-color: rgba(0,0,0,0.6);
+}
+ul li:hover .infoContent{
+    opacity: 1;
+    /*设置元素不透明级别*/
+}
+ul li:hover .btn{
+    border-color: white;
+}
+ul li img{
+    width: 100%;
+    height: 532.5px;
+    float: left;
+}
+ul li .info{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 1;
+}
+.infoContent{
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 137.8px;
+    width: 150px;
+    color: white;
+    opacity: 0.7;
+}
+.infoContent p{
+    text-align: center;
+}
+.infoContent .line{
+    width: 20px;
+    height: 2px;
+    padding: 0;
+    margin: 15px 50px;
+}
+.infoContent h3{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn{
+    width: 28px;
+    height: 22px;
+    font-size: 14px;
+    padding: 6px 15px;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: white;
+    color: #92989a;
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid gainsboro;
+    padding-top: 20px;
+    background:white;
+}
+.footcontent{
+    width: 100%;
+    height: 151px;
+    background: whitesmoke;
+}
+.footerpic{
+    width:100%;
+    height: 46px;
+    padding: 5px 0;
+}
+.footicon{
+    width: 120px;
+    height: 20px;
+    margin-left:45%;
+    padding-top: 5px;
+}
+.footicon img{
+    float:left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.footcontent .footer{
+    line-height: 1.5em;
+    foot-size:14px;
+    color: darkgray;
+    text-align: center;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+/*foot*/
